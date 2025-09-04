@@ -54,6 +54,11 @@ Entrar no github e criar um repositório com o mesmo nome da pasta
 - ``git pull``
 - ``git push origin main``
 
+## Clone do seu repositório
+- ``git clone <link_do_seu_repositorio>``
+- ``git add .``
+- ``git commit -m 'mensagem falando o que foi alterado'``
+- ``git push origin main``
 
 # GitHub dos Alunos
 - Rafa: ``https://github.com/Rafael582480/FinalProject``
