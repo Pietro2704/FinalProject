@@ -1,8 +1,0 @@
-/* Hover nos itens da lista */
-
-#lista li:hover {
-  background-color: #f1f3f5;
-  cursor: pointer;
-  transform: scale(1.02);
-  transition: 0.2s;
-}
