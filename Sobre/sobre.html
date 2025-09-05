@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ DOM</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .faq-item {
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        box-shadow: 5px 4px 0px 1px rgba(0, 0, 0, 0.521);
+      }
+      .pergunta {
+        background-color: #0d6efd;
+        color: white;
+        padding: 15px;
+        cursor: pointer;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .resposta {
+        padding: 15px;
+        background-color: #f8f9fa;
+        display: none;
+      }
+      .pergunta .icone {
+        transition: transform 0.3s;
+        font-size: 1.5rem;
+      }
+      .pergunta.ativo .icone {
+        transform: rotate(45deg);
+      }
+    </style>
+  </head>
+  <body class="container py-2 bg-light">
+    <div class="container mt-5">
+      <h2 class="mb-4 text-center">FAQ - (Frequently Asked Question)</h2>
+
+      <div class="faq-item">
+        <div class="pergunta">O que é DOM? <span class="icone">+</span></div>
+        <div class="resposta">
+          DOM é a sigla para Document Object Model, que representa a estrutura
+          de uma página web em forma de árvore de elementos.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="pergunta">Para que serve? <span class="icone">+</span></div>
+        <div class="resposta">
+          O DOM permite que você acesse e manipule elementos HTML via
+          JavaScript, tornando a página dinâmica.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="pergunta">Como praticar? <span class="icone">+</span></div>
+        <div class="resposta">
+          Pratique manipulando elementos da página: altere textos, cores, crie
+          listas, formulários e interações com eventos.
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
